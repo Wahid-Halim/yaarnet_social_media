@@ -22,10 +22,12 @@ export default function RootLayout({ children }) {
     <ClerkProvider
       appearance={{
         signIn: {
-          variables: { colorPrimary: "#f9aa11", logoWidth: "10px" },
+          variables: {
+            colorPrimary: "#f9aa11",
+          },
         },
         signUp: {
-          variables: { colorPrimary: "#f9aa11", logoWidth: "200px" },
+          variables: { colorPrimary: "#f9aa11" },
         },
       }}
     >

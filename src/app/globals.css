@@ -18,3 +18,12 @@ body {
 }
 
 /* Clerk component styles */
+
+.cl-logoImage {
+  width: 9rem;
+  height: 3rem;
+}
+
+.cl-card {
+  box-shadow: none;
+}
